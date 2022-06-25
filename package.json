@@ -1,0 +1,23 @@
+{
+  "name": "w3d2-crud-lecture",
+  "version": "1.0.0",
+  "description": "What is [Express](https://expressjs.com/en/api.html#express)? Framework for node.js apps to more easily accept HTTP Requests, and return HTTP responses. REST? REST means that the path that we are going to should represent the data being transferred. An API that uses the REST convention is said to be RESTful.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "./node_modules/.bin/nodemon ./server.js"
+  },
+  "repository": {
+  },
+  "author": "Bryan Gomes",
+  "license": "ISC",
+  "bugs": {
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.18"
+  }
+}
